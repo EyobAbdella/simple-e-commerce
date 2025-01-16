@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'account',
     'store',
-    'dj_affiliate',
 ]
 
 MIDDLEWARE = [
@@ -51,8 +50,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    # 'store.middleware.AffiliateMiddleware'
-    'dj_affiliate.middleware.AffiliateMiddleware',
 ]
 
 ROOT_URLCONF = 'eCommerce.urls'
